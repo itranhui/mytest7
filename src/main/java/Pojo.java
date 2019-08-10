@@ -6,7 +6,19 @@
 
 public class Pojo {
     private String name;
+/**
+ * A1 用户修改代码
+ */
 
+private  String age;
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
     /**
      * A2 用户第一次修改代码
      */
