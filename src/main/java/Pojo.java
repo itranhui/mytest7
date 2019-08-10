@@ -6,11 +6,15 @@
 
 public class Pojo {
     private String name;
-/**
- * A1 用户修改代码
- */
+    /**
+     * A1 用户修改代码
+     */
 
-private  String age;
+    private String age;
+    /**
+     * A2 用户第一次修改代码
+     */
+    private String address;
 
     public String getAge() {
         return age;
@@ -19,10 +23,7 @@ private  String age;
     public void setAge(String age) {
         this.age = age;
     }
-    /**
-     * A2 用户第一次修改代码
-     */
-    private String address;
+
 
     public String getAddress() {
         return address;
